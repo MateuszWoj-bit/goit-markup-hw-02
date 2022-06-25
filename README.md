@@ -1,1 +1,1 @@
-# goit-markup-hw-02
+Zadanie domowe FSON PL 7 - HTML 1
