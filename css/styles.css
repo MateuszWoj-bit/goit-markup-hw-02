@@ -1,0 +1,34 @@
+:root {
+  --brand-color: #2196f3;
+  --grey-color: #F5F4FA;
+  --white-color: #ffffff;
+  --grey-background-color: #F5F4FA;
+  --panetone-color: #2f303a;
+}
+
+.link {
+  color: inherit;
+  text-decoration: none;
+}
+li .link:hover {
+  color: var(--brand-color);
+}
+li .link:focus {
+  color: var(--brand-color);
+}
+.blue {
+  color: var(--brand-color);
+}
+.white {
+  color: var(--white-color);
+}
+
+.our-team {
+  background: var(--grey-background-color);
+}
+.footer {
+  background: var(--panetone-color);
+}
+.header {
+  background: var(--panetone-color);
+}
