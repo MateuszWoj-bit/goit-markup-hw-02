@@ -1,8 +1,9 @@
 :root {
   --brand-color: #2196f3;
-  --grey-color: #F5F4FA;
+  --grey-color: #757575;
   --white-color: #ffffff;
-  --grey-background-color: #F5F4FA;
+  --white-color06: #ffffff99;
+  --grey-background-color: #f5f4fa;
   --panetone-color: #2f303a;
 }
 
@@ -14,7 +15,17 @@ li .link:hover {
   color: var(--brand-color);
 }
 li .link:focus {
+  color: var(--brand-color); 
+}
+.contact .grey:hover{
   color: var(--brand-color);
+}
+.contact .grey:focus{
+  color: var(--brand-color);
+}
+.link-footer {
+  color: var(--white-color06);
+  text-decoration: none;
 }
 .blue {
   color: var(--brand-color);
@@ -22,7 +33,9 @@ li .link:focus {
 .white {
   color: var(--white-color);
 }
-
+.grey {
+  color: var(--grey-color);
+}
 .our-team {
   background: var(--grey-background-color);
 }
@@ -32,3 +45,4 @@ li .link:focus {
 .header {
   background: var(--panetone-color);
 }
+.header .white {text-transform: uppercase;}
