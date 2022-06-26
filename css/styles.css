@@ -11,16 +11,12 @@
   color: inherit;
   text-decoration: none;
 }
-li .link:hover {
-  color: var(--brand-color);
-}
+li .link:hover,
 li .link:focus {
-  color: var(--brand-color); 
-}
-.contact .grey:hover{
   color: var(--brand-color);
 }
-.contact .grey:focus{
+.contact .grey:hover,
+.contact .grey:focus {
   color: var(--brand-color);
 }
 .link-footer {
@@ -33,16 +29,17 @@ li .link:focus {
 .white {
   color: var(--white-color);
 }
-.grey {
+.grey,
+.contact {
   color: var(--grey-color);
 }
 .our-team {
   background: var(--grey-background-color);
 }
+.header,
 .footer {
   background: var(--panetone-color);
 }
-.header {
-  background: var(--panetone-color);
+.header .white, .lorem {
+  text-transform: uppercase;
 }
-.header .white {text-transform: uppercase;}
