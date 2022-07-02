@@ -19,12 +19,18 @@ a {
 ul {
   list-style-type: none;
 }
-
+button {
+  cursor: pointer;
+}
 .link {
   color: inherit;
 }
 .link-footer {
   color: var(--white-color06);
+}
+a[href='mailto:info@example.com']:focus,
+a[href='mailto:info@example.com']:hover {
+  text-decoration: underline;
 }
 li .link:hover,
 li .link:focus {
@@ -34,7 +40,6 @@ li .link:focus {
 .contact .grey:focus {
   color: var(--brand-color);
 }
-
 .blue {
   color: var(--brand-color);
 }
@@ -54,7 +59,6 @@ li .link:focus {
 .footer {
   background: var(--panetone-color);
 }
-
 .features-list {
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -65,12 +69,10 @@ li .link:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-
 .features-list p {
   line-height: 1.71;
   color: var(--grey-color);
 }
-
 .header > h2 {
   font-weight: 900;
   font-size: 44px;
@@ -98,8 +100,8 @@ li .link:focus {
   background-color: var(--grey-background-color);
   border: none;
 }
-
-.portfolio button:hover {
+.portfolio button:hover,
+.portfolio button:focus {
   font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
@@ -109,7 +111,6 @@ li .link:focus {
   color: var(--white-color);
   background-color: var(--brand-color);
 }
-
 .logo {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
@@ -155,9 +156,6 @@ li .link:focus {
 }
 .team .grey {
   font-weight: 400;
-}
-.mail-underline {
-  text-decoration: underline;
 }
 .portfolio-caption {
   font-weight: 700;
