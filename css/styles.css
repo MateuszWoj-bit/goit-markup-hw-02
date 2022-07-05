@@ -8,7 +8,7 @@
   --black-color: #000000;
   --panetone-color: #2f303a;
 }
-css
+
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--site-color);
